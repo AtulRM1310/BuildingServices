@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Building Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        p {
+            font-style: italic;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Building Services</h1>
+    <h2>Product List</h2>
+    <ul>
+        <li>
+            <img src="product_a.jpg" alt="Product A">
+            A - 1 Rupee
+        </li>
+        <li>
+            <img src="product_b.gif" alt="Product B">
+            B - 2 Rupees
+        </li>
+        <li>
+            <img src="product_c.jpg" alt="Product C">
+            C - 3 Rupees
+        </li>
+        <li>
+            <img src="product_d.gif" alt="Product D">
+            D - 4 Rupees
+        </li>
+        <li>
+            <img src="product_e.jpg" alt="Product E">
+            E - 5 Rupees
+        </li>
+        <li>
+            <img src="product_f.gif" alt="Product F">
+            F - 6 Rupees
+        </li>
+        <li>
+            <img src="product_g.jpg" alt="Product G">
+            G - 7 Rupees
+        </li>
+        <li>
+            <img src="product_h.gif" alt="Product H">
+            H - 8 Rupees
+        </li>
+    </ul>
+    <p>Owner Address: aasd aghk, acha qghkkbavh, qgiiikbfbhuygg</p>
+
+    <!-- Here, you can add code for changing themes -->
+    <div class="button-container">
+        <button onclick="changeTheme('theme1')">Theme 1</button>
+        <button onclick="changeTheme('theme2')">Theme 2</button>
+    </div>
+
+    <script>
+        // JavaScript function to change themes
+        function changeTheme(theme) {
+            // You can implement theme changing logic here
+            alert("Theme changed to " + theme);
+        }
+    </script>
+</body>
+</html>
